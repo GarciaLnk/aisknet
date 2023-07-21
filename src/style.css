@@ -1,0 +1,4 @@
+/* This file imports Tailwind CSS classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

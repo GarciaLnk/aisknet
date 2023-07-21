@@ -1,0 +1,12 @@
+{
+  "extends": ["./node_modules/gts/tsconfig-google.json", "plasmo/templates/tsconfig.base"],
+  "exclude": ["node_modules"],
+  "include": [".plasmo/index.d.ts", "./**/*.ts", "./**/*.svelte"],
+  "compilerOptions": {
+    "paths": {
+      "~*": ["./src/*"]
+    },
+    "baseUrl": ".",
+    "strict": true
+  }
+}

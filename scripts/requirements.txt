@@ -1,0 +1,4 @@
+torch
+transformers
+onnxruntime
+git+https://github.com/huggingface/optimum.git#egg=optimum[onnxruntime,exporters]
