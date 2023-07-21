@@ -1,6 +1,6 @@
-# AIskNet - Locally-run AI browser extension
+# AIskNet
 
-This projects aims to develop a browser extension that runs AI models locally on the browser to answer questions about the content of the page the user is visiting.
+This project aims to develop a browser extension that runs AI models locally on the browser to answer questions about the content of the page the user is visiting.
 
 ## Installation
 
