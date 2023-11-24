@@ -93,11 +93,6 @@
           "default": "Alt+A"
         }
       }
-    },
-    "browser_specific_settings": {
-      "gecko": {
-        "id": "$FIREFOX_EXT_ID"
-      }
     }
   }
 }
