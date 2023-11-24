@@ -9,10 +9,10 @@
  * @author Alberto García
  */
 
+import type { PlasmoMessaging } from "@plasmohq/messaging"
 import { FeatureExtractionModel } from "@visheratin/web-ai/text"
 import { ModelManager } from "~models"
-import type { PlasmoMessaging } from "@plasmohq/messaging"
-import { status, error, progress, embeddingIndexDB, validateCache } from "~store"
+import { embeddingIndexDB, error, progress, status, validateCache } from "~store"
 import { ModelTypes } from "~types"
 import type { CacheItem, Embedding } from "~types"
 

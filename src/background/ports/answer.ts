@@ -9,14 +9,14 @@
  * @author Alberto García
  */
 
-import { Seq2SeqModel, FeatureExtractionModel } from "@visheratin/web-ai/text"
-import { ModelManager } from "~models"
 import { sendToContentScript, type PlasmoMessaging } from "@plasmohq/messaging"
-import { output, prompt, status, error, stop, embeddingIndexDB } from "~store"
-import { similarity } from "ml-distance"
 import { Storage } from "@plasmohq/storage"
+import { FeatureExtractionModel, Seq2SeqModel } from "@visheratin/web-ai/text"
+import { ModelManager } from "~models"
+import { embeddingIndexDB, error, output, prompt, status, stop } from "~store"
 import { ModelTypes } from "~types"
 import type { CacheItem, Embedding, NearestResult } from "~types"
+import { similarity } from "ml-distance"
 
 /**
  * Perform similarity search over an array of embeddings and return the `k` nearest results.

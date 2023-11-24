@@ -5,26 +5,26 @@
 
 <script lang="ts">
   import { getPort } from "@plasmohq/messaging/port"
-  import { onMount, onDestroy } from "svelte"
+  import { onDestroy, onMount } from "svelte"
   import "~style.css"
+  import { Storage } from "@plasmohq/storage"
   import {
-    question,
-    output,
-    prompt,
-    status,
-    stop,
-    error,
-    progress,
-    heartbeat,
     createStore,
     embeddingIndexDB,
+    error,
+    heartbeat,
+    output,
+    progress,
+    prompt,
+    question,
+    status,
+    stop,
     validateCache
   } from "~store"
+  import { ModelTypes, type ModelList, type PageStatus } from "~types"
   import type { Unsubscriber } from "svelte/store"
   import extractScript from "url:~scripts/extract.ts"
   import highlightScript from "url:~scripts/highlight.ts"
-  import { Storage } from "@plasmohq/storage"
-  import { ModelTypes, type ModelList, type PageStatus } from "~types"
 
   interface MainWindow extends Window {
     question_input: HTMLInputElement

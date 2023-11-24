@@ -6,10 +6,10 @@
  * @author Alberto García
  */
 
-import { writable, type Readable } from "svelte/store"
 import { Storage } from "@plasmohq/storage"
-import localForage from "localforage"
 import type { CacheItem, Embedding } from "~types"
+import localForage from "localforage"
+import { writable, type Readable } from "svelte/store"
 
 /**
  * Interface for representing a custom store that conforms to the Svelte store contract.

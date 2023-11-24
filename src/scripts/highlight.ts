@@ -6,8 +6,8 @@
  * @author Alberto García
  */
 
+import type { HighlightMessage, NearestResult } from "~types"
 import Mark from "mark.js"
-import type { NearestResult, HighlightMessage } from "~types"
 
 /**
  * This function is responsible for highlighting the given elements on the webpage.

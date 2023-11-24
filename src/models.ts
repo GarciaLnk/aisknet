@@ -6,9 +6,9 @@
  * @author Alberto García
  */
 
-import { SessionParams } from "@visheratin/web-ai"
-import { FeatureExtractionModel, Seq2SeqModel, ModelType, type TextMetadata } from "@visheratin/web-ai/text"
 import { Storage } from "@plasmohq/storage"
+import { SessionParams } from "@visheratin/web-ai"
+import { FeatureExtractionModel, ModelType, Seq2SeqModel, type TextMetadata } from "@visheratin/web-ai/text"
 import { error } from "~store"
 import { ModelTypes, type ModelList } from "~types"
 

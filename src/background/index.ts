@@ -8,9 +8,9 @@
  */
 
 import "@plasmohq/messaging/background"
-import { ModelManager } from "~models"
-import { embeddingIndexDB, status, heartbeat } from "~store"
 import { Storage } from "@plasmohq/storage"
+import { ModelManager } from "~models"
+import { embeddingIndexDB, heartbeat, status } from "~store"
 import { ModelTypes } from "~types"
 
 // Instantiate the storage and model manager.

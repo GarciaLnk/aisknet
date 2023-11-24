@@ -6,13 +6,13 @@
  * @author Alberto García
  *  */
 
-import { Readability, isProbablyReaderable } from "@mozilla/readability"
-import { convert, type HtmlToTextOptions } from "html-to-text"
+import { isProbablyReaderable, Readability } from "@mozilla/readability"
+import { Storage } from "@plasmohq/storage"
 import { createStore } from "~store"
+import { convert, type HtmlToTextOptions } from "html-to-text"
+import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"
 import * as pdfjsLib from "pdfjs-dist"
 import type { TextItem } from "pdfjs-dist/types/src/display/api"
-import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"
-import { Storage } from "@plasmohq/storage"
 
 // Define the current webpage's URL and a key to store it.
 const url = window.location.href
