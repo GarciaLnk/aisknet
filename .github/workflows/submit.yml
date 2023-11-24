@@ -1,6 +1,10 @@
 name: "Submit to Web Store"
 on:
   workflow_dispatch:
+    inputs:
+      browser:
+        description: 'Browser to publish (chrome/firefox/edge)'
+        required: true
 
 jobs:
   build:
@@ -27,10 +31,21 @@ jobs:
         run: pnpm build
       - name: Package the extension into a zip artifact
         run: pnpm package
-      - name: Browser Platform Publish
+      - name: Publish to Chrome Web Store
+        if: ${{ github.event.inputs.browser == 'chrome' }}
         uses: PlasmoHQ/bpp@v3
         with:
           keys: ${{ secrets.SUBMIT_KEYS }}
           chrome-file: build/chrome-mv3-prod.zip
+      - name: Publish to Firefox Add-ons
+        if: ${{ github.event.inputs.browser == 'firefox' }}
+        uses: PlasmoHQ/bpp@v3
+        with:
+          keys: ${{ secrets.SUBMIT_KEYS }}
           firefox-file: build/firefox-mv3-prod.zip
+      - name: Publish to Edge Add-ons
+        if: ${{ github.event.inputs.browser == 'edge' }}
+        uses: PlasmoHQ/bpp@v3
+        with:
+          keys: ${{ secrets.SUBMIT_KEYS }}
           edge-file: build/edge-mv3-prod.zip
