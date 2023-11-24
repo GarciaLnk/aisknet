@@ -96,7 +96,7 @@
     },
     "browser_specific_settings": {
       "gecko": {
-        "id": "$FIREFOX_EXT_ID"
+        "id": "{a1e0a9b9-791d-44d9-a08c-58d7997df728}"
       }
     }
   }
