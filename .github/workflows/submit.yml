@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: chrome-extension
-          path: build/chrome-mv3-prod.zip
+          path: build/chrome-mv3-prod
       - name: Publish to Chrome Web Store
         if: ${{ github.event.inputs.browser == 'chrome' || github.event.inputs.browser == 'all' }}
         uses: PlasmoHQ/bpp@v3
@@ -54,7 +54,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: firefox-extension
-          path: build/firefox-mv3-prod.zip
+          path: build/firefox-mv3-prod
       - name: Publish to Firefox Add-ons
         if: ${{ github.event.inputs.browser == 'firefox' || github.event.inputs.browser == 'all' }}
         uses: PlasmoHQ/bpp@v3
@@ -71,7 +71,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: edge-extension
-          path: build/edge-mv3-prod.zip
+          path: build/edge-mv3-prod
       - name: Publish to Edge Add-ons
         if: ${{ github.event.inputs.browser == 'edge' || github.event.inputs.browser == 'all' }}
         uses: PlasmoHQ/bpp@v3
