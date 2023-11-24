@@ -8,9 +8,9 @@
   "scripts": {
     "dev": "plasmo dev",
     "build": "run-s build:*",
-    "build:chrome": "plasmo build --hoist",
-    "build:firefox": "plasmo build --target=firefox-mv3 --hoist",
-    "build:edge": "plasmo build --target=edge-mv3 --hoist",
+    "build:chrome": "plasmo build",
+    "build:firefox": "plasmo build --target=firefox-mv3",
+    "build:edge": "plasmo build --target=edge-mv3",
     "package": "run-s package:*",
     "package:chrome": "plasmo package",
     "package:firefox": "plasmo package --target=firefox-mv3",
