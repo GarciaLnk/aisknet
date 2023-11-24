@@ -11,7 +11,7 @@ module.exports = {
   bracketSpacing: true,
   bracketSameLine: true,
   plugins: [
-    require.resolve("@plasmohq/prettier-plugin-sort-imports"),
+    require.resolve("@ianvs/prettier-plugin-sort-imports"),
     require.resolve("prettier-plugin-svelte"),
     require.resolve("prettier-plugin-tailwindcss")
   ],

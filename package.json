@@ -35,7 +35,7 @@
     "svelte": "^4.2.7"
   },
   "devDependencies": {
-    "@plasmohq/prettier-plugin-sort-imports": "^4.0.1",
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@plasmohq/rps": "^1.8.7",
     "@tailwindcss/typography": "^0.5.10",
     "@types/chrome": "^0.0.253",
