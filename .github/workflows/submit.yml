@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       browser:
-        description: 'Browser to publish (chrome/firefox/edge)'
+        description: 'Browser to publish (chrome/firefox/edge/all)'
         required: true
 
 jobs:
@@ -32,19 +32,19 @@ jobs:
       - name: Package the extension into a zip artifact
         run: pnpm package
       - name: Publish to Chrome Web Store
-        if: ${{ github.event.inputs.browser == 'chrome' }}
+        if: ${{ github.event.inputs.browser == 'chrome' || github.event.inputs.browser == 'all' }}
         uses: PlasmoHQ/bpp@v3
         with:
           keys: ${{ secrets.SUBMIT_KEYS }}
           chrome-file: build/chrome-mv3-prod.zip
       - name: Publish to Firefox Add-ons
-        if: ${{ github.event.inputs.browser == 'firefox' }}
+        if: ${{ github.event.inputs.browser == 'firefox' || github.event.inputs.browser == 'all' }}
         uses: PlasmoHQ/bpp@v3
         with:
           keys: ${{ secrets.SUBMIT_KEYS }}
           firefox-file: build/firefox-mv3-prod.zip
       - name: Publish to Edge Add-ons
-        if: ${{ github.event.inputs.browser == 'edge' }}
+        if: ${{ github.event.inputs.browser == 'edge' || github.event.inputs.browser == 'all' }}
         uses: PlasmoHQ/bpp@v3
         with:
           keys: ${{ secrets.SUBMIT_KEYS }}
