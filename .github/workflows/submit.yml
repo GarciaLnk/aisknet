@@ -10,9 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Cache pnpm modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.pnpm-store
           key: ${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
@@ -23,7 +23,7 @@ jobs:
           version: latest
           run_install: true
       - name: Use latest Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: latest
           cache: "pnpm"
@@ -34,7 +34,7 @@ jobs:
           pnpm package:chrome
       - name: Upload Chrome Artifact
         if: ${{ github.event.inputs.browser == 'chrome' || github.event.inputs.browser == 'all' }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: chrome-extension
           path: build/chrome-mv3-prod
@@ -51,7 +51,7 @@ jobs:
           pnpm package:firefox
       - name: Upload Firefox Artifact
         if: ${{ github.event.inputs.browser == 'firefox' || github.event.inputs.browser == 'all' }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: firefox-extension
           path: build/firefox-mv3-prod
@@ -68,7 +68,7 @@ jobs:
           pnpm package:edge
       - name: Upload Edge Artifact
         if: ${{ github.event.inputs.browser == 'edge' || github.event.inputs.browser == 'all' }}
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: edge-extension
           path: build/edge-mv3-prod
