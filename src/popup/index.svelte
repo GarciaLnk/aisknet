@@ -254,7 +254,7 @@
         <button
           id="settings_button"
           type="button"
-          class="btn btn-circle btn-sm"
+          class="btn btn-circle btn-sm uppercase"
           disabled={$status.isAnswering ? true : false}
           on:click={openSettings}>
           <!-- src: https://www.svgrepo.com/svg/511122/settings -->
@@ -282,7 +282,7 @@
 
       <div class="flex items-center justify-center">
         <button
-          class="btn btn-primary btn-block flex-1 {isReady ? '' : 'pointer-events-none'}"
+          class="btn btn-primary btn-block flex-1 uppercase {isReady ? '' : 'pointer-events-none'}"
           disabled={$question ? false : true}
           tabindex={isReady ? 0 : -1}
           type="submit">
@@ -296,7 +296,7 @@
           {/if}
         </button>
         {#if $status.showStop}
-          <button class="btn-icon btn btn-secondary ml-2" on:click|preventDefault={() => ($stop = true)}>
+          <button class="btn-icon btn btn-secondary ml-2 uppercase" on:click|preventDefault={() => ($stop = true)}>
             <!-- src: https://www.svgrepo.com/svg/511151/stop -->
             <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor">
               <path
@@ -407,7 +407,7 @@
           </div>
 
           <div class="modal-action">
-            <button class="btn btn-primary btn-sm btn-block" type="submit">Save</button>
+            <button class="btn btn-primary btn-sm btn-block uppercase" type="submit">Save</button>
           </div>
         </form>
         <form method="dialog" class="modal-backdrop">
@@ -452,7 +452,7 @@
             d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
         <div class="flex items-center justify-between">
           <div class="flex-auto text-left">Warning: Timeout reached, you may reload the extension</div>
-          <button class="btn btn-circle btn-sm bg-warning" on:click={reloadExtension}>
+          <button class="btn btn-circle btn-sm bg-warning uppercase" on:click={reloadExtension}>
             <!-- src: https://www.svgrepo.com/svg/510837/arrows-reload-01 -->
             <svg class="h-6 w-6 stroke-gray-500" viewBox="0 0 24 24" fill="none">
               <path
