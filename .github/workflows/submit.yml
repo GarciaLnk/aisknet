@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       browser:
-        description: 'Browser to publish (chrome/firefox/edge/all)'
+        description: "Browser to publish (chrome/firefox/edge/all)"
         required: true
 
 jobs:
