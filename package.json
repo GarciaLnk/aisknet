@@ -34,7 +34,7 @@
     "localforage": "^1.10.0",
     "mark.js": "^8.11.1",
     "ml-distance": "^4.0.1",
-    "pdfjs-dist": "^3.11.174",
+    "pdfjs-dist": "^4.2.67",
     "svelte": "^4.2.9"
   },
   "devDependencies": {
