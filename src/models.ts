@@ -216,8 +216,8 @@ const modelList: TextMetadata[] = [
     sizeMB: 72,
     memEstimateMB: 330,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/flan-t5-small/encoder_model_quantized.onnx.gz"],
-      ["decoder", "https://models.aisknet.com/flan-t5-small/decoder_model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/flan-t5-small/encoder_model_quantized.onnx.gz"],
+      ["decoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/flan-t5-small/decoder_model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([
       ["encoder", "last_hidden_state"],
@@ -240,8 +240,8 @@ const modelList: TextMetadata[] = [
     sizeMB: 346,
     memEstimateMB: 900,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/flan-t5-small/encoder_model.onnx.gz"],
-      ["decoder", "https://models.aisknet.com/flan-t5-small/decoder_model.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/flan-t5-small/encoder_model.onnx.gz"],
+      ["decoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/flan-t5-small/decoder_model.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([
       ["encoder", "last_hidden_state"],
@@ -264,8 +264,8 @@ const modelList: TextMetadata[] = [
     sizeMB: 72,
     memEstimateMB: 330,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/LaMini-Flan-T5-77M/encoder_model_quantized.onnx.gz"],
-      ["decoder", "https://models.aisknet.com/LaMini-Flan-T5-77M/decoder_model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/LaMini-Flan-T5-77M/encoder_model_quantized.onnx.gz"],
+      ["decoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/LaMini-Flan-T5-77M/decoder_model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([
       ["encoder", "last_hidden_state"],
@@ -288,8 +288,8 @@ const modelList: TextMetadata[] = [
     sizeMB: 346,
     memEstimateMB: 900,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/LaMini-Flan-T5-77M/encoder_model.onnx.gz"],
-      ["decoder", "https://models.aisknet.com/LaMini-Flan-T5-77M/decoder_model.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/LaMini-Flan-T5-77M/encoder_model.onnx.gz"],
+      ["decoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/LaMini-Flan-T5-77M/decoder_model.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([
       ["encoder", "last_hidden_state"],
@@ -312,8 +312,8 @@ const modelList: TextMetadata[] = [
     sizeMB: 213,
     memEstimateMB: 800,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/flan-t5-base/encoder_model_quantized.onnx.gz"],
-      ["decoder", "https://models.aisknet.com/flan-t5-base/decoder_model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/flan-t5-base/encoder_model_quantized.onnx.gz"],
+      ["decoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/flan-t5-base/decoder_model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([
       ["encoder", "last_hidden_state"],
@@ -336,8 +336,8 @@ const modelList: TextMetadata[] = [
     sizeMB: 213,
     memEstimateMB: 800,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/flan-alpaca-base/encoder_model_quantized.onnx.gz"],
-      ["decoder", "https://models.aisknet.com/flan-alpaca-base/decoder_model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/flan-alpaca-base/encoder_model_quantized.onnx.gz"],
+      ["decoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/flan-alpaca-base/decoder_model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([
       ["encoder", "last_hidden_state"],
@@ -360,8 +360,8 @@ const modelList: TextMetadata[] = [
     sizeMB: 213,
     memEstimateMB: 800,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/LaMini-Flan-T5-248M/encoder_model_quantized.onnx.gz"],
-      ["decoder", "https://models.aisknet.com/LaMini-Flan-T5-248M/decoder_model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/LaMini-Flan-T5-248M/encoder_model_quantized.onnx.gz"],
+      ["decoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/LaMini-Flan-T5-248M/decoder_model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([
       ["encoder", "last_hidden_state"],
@@ -384,8 +384,8 @@ const modelList: TextMetadata[] = [
     sizeMB: 640,
     memEstimateMB: 1530,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/flan-t5-large/encoder_model_quantized.onnx.gz"],
-      ["decoder", "https://models.aisknet.com/flan-t5-large/decoder_model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/flan-t5-large/encoder_model_quantized.onnx.gz"],
+      ["decoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/flan-t5-large/decoder_model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([
       ["encoder", "last_hidden_state"],
@@ -408,8 +408,8 @@ const modelList: TextMetadata[] = [
     sizeMB: 640,
     memEstimateMB: 1530,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/LaMini-Flan-T5-783M/encoder_model_quantized.onnx.gz"],
-      ["decoder", "https://models.aisknet.com/LaMini-Flan-T5-783M/decoder_model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/LaMini-Flan-T5-783M/encoder_model_quantized.onnx.gz"],
+      ["decoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/LaMini-Flan-T5-783M/decoder_model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([
       ["encoder", "last_hidden_state"],
@@ -432,10 +432,10 @@ const modelList: TextMetadata[] = [
     type: ModelType.FeatureExtraction,
     sizeMB: 80,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/all-mpnet-base-v2/model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/all-mpnet-base-v2/model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([["encoder", "last_hidden_state"]]),
-    tokenizerPath: "https://models.aisknet.com/tokenizers/mpnet-tokenizer.json",
+    tokenizerPath: "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/tokenizers/mpnet-tokenizer.json",
     tokenizerParams: {
       bosTokenID: 0,
       eosTokenID: 2,
@@ -452,10 +452,10 @@ const modelList: TextMetadata[] = [
     type: ModelType.FeatureExtraction,
     sizeMB: 80,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/multi-qa-mpnet-base-cos-v1/model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/multi-qa-mpnet-base-cos-v1/model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([["encoder", "last_hidden_state"]]),
-    tokenizerPath: "https://models.aisknet.com/tokenizers/qa-mpnet-tokenizer.json",
+    tokenizerPath: "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/tokenizers/qa-mpnet-tokenizer.json",
     tokenizerParams: {
       bosTokenID: 0,
       eosTokenID: 2,
@@ -471,7 +471,7 @@ const modelList: TextMetadata[] = [
     memEstimateMB: 430,
     type: ModelType.FeatureExtraction,
     sizeMB: 122,
-    modelPaths: new Map<string, string>([["encoder", "https://models.aisknet.com/all-MiniLM-L12-v2/model.onnx.gz"]]),
+    modelPaths: new Map<string, string>([["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/all-MiniLM-L12-v2/model.onnx.gz"]]),
     outputNames: new Map<string, string>([["encoder", "last_hidden_state"]]),
     tokenizerPath: "/assets/tokenizer-minilm.json",
     tokenizerParams: {
@@ -488,7 +488,7 @@ const modelList: TextMetadata[] = [
     type: ModelType.FeatureExtraction,
     sizeMB: 24,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/all-MiniLM-L12-v2/model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/all-MiniLM-L12-v2/model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([["encoder", "last_hidden_state"]]),
     tokenizerPath: "/assets/tokenizer-minilm.json",
@@ -505,7 +505,7 @@ const modelList: TextMetadata[] = [
     memEstimateMB: 340,
     type: ModelType.FeatureExtraction,
     sizeMB: 83,
-    modelPaths: new Map<string, string>([["encoder", "https://models.aisknet.com/all-MiniLM-L6-v2/model.onnx.gz"]]),
+    modelPaths: new Map<string, string>([["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/all-MiniLM-L6-v2/model.onnx.gz"]]),
     outputNames: new Map<string, string>([["encoder", "last_hidden_state"]]),
     tokenizerPath: "/assets/tokenizer-minilm.json",
     tokenizerParams: {
@@ -522,7 +522,7 @@ const modelList: TextMetadata[] = [
     type: ModelType.FeatureExtraction,
     sizeMB: 17,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/all-MiniLM-L6-v2/model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/all-MiniLM-L6-v2/model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([["encoder", "last_hidden_state"]]),
     tokenizerPath: "/assets/tokenizer-minilm.json",
@@ -540,7 +540,7 @@ const modelList: TextMetadata[] = [
     type: ModelType.FeatureExtraction,
     sizeMB: 83,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/multi-qa-MiniLM-L6-cos-v1/model.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/multi-qa-MiniLM-L6-cos-v1/model.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([["encoder", "last_hidden_state"]]),
     tokenizerPath: "/assets/tokenizer-minilm.json",
@@ -558,7 +558,7 @@ const modelList: TextMetadata[] = [
     type: ModelType.FeatureExtraction,
     sizeMB: 17,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/multi-qa-MiniLM-L6-cos-v1/model_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/multi-qa-MiniLM-L6-cos-v1/model_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([["encoder", "last_hidden_state"]]),
     tokenizerPath: "/assets/tokenizer-minilm.json",
@@ -576,11 +576,11 @@ const modelList: TextMetadata[] = [
     type: ModelType.FeatureExtraction,
     sizeMB: 82,
     modelPaths: new Map<string, string>([
-      ["encoder", "https://models.aisknet.com/gtr-t5-base/model_quantized.onnx.gz"],
-      ["dense", "https://models.aisknet.com/gtr-t5-base/model_dense_quantized.onnx.gz"]
+      ["encoder", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/gtr-t5-base/model_quantized.onnx.gz"],
+      ["dense", "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/gtr-t5-base/model_dense_quantized.onnx.gz"]
     ]),
     outputNames: new Map<string, string>([["encoder", "hidden_states"]]),
-    tokenizerPath: "https://models.aisknet.com/tokenizers/gtr-t5-tokenizer.json",
+    tokenizerPath: "https://huggingface.co/GarciaLnk/onnx-models-quantized/resolve/main/tokenizers/gtr-t5-tokenizer.json",
     tokenizerParams: {
       bosTokenID: 0,
       eosTokenID: 1,
