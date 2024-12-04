@@ -387,7 +387,7 @@
               <div>
                 <div class="text-sm font-bold">Chunk size</div>
                 <input
-                  class="input input-bordered input-accent input-sm mt-2 w-32 text-xs font-normal"
+                  class="input input-sm input-bordered input-accent mt-2 w-32 text-xs font-normal"
                   type="number"
                   min="40"
                   max="1000"
@@ -397,7 +397,7 @@
               <div>
                 <div class="text-sm font-bold">Results number</div>
                 <input
-                  class="input input-bordered input-accent input-sm mt-2 w-32 text-xs font-normal"
+                  class="input input-sm input-bordered input-accent mt-2 w-32 text-xs font-normal"
                   type="number"
                   min="1"
                   max="10"

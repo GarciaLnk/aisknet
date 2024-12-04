@@ -29,7 +29,8 @@
 					aria-label="Play AIskNet Demo"
 					on:click={() => (startVideo = true)}
 					on:keydown={() => (startVideo = true)}
-				/>
+				>
+				</button>
 				<button
 					class="bg-primary-500 h-8 w-14 border-0 rounded-lg grid opacity-90 absolute place-self-center transition-all duration-200 ease-in
 					before:aspect-square before:bg-white before:h-4 before:place-self-center
@@ -37,7 +38,8 @@
 					md:h-10 md:w-16 md:before:h-5"
 					aria-label="Play"
 					on:click={() => (startVideo = true)}
-				/>
+				>
+				</button>
 			{:else}
 				<iframe
 					class="w-full h-full absolute inset-0 border-0 object-cover rounded-md"
@@ -45,7 +47,8 @@
 					title="AIskNet Demo"
 					frameborder="0"
 					allow="autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer"
-				/>
+				>
+				</iframe>
 			{/if}
 		</div>
 	</div>
