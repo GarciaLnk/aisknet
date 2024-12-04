@@ -1,7 +1,7 @@
 {
   "name": "aisknet",
   "displayName": "AIskNet",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "license": "MIT",
   "description": "Locally-run AI that answers questions from your current webpage",
   "author": "Alberto García <albertogm@usal.es>",
