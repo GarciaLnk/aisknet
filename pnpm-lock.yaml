@@ -42,8 +42,8 @@ importers:
         specifier: ^3.11.174
         version: 3.11.174
       svelte:
-        specifier: ^4.2.9
-        version: 4.2.9
+        specifier: ^4.2.19
+        version: 4.2.19
     devDependencies:
       '@ianvs/prettier-plugin-sort-imports':
         specifier: ^4.1.1
@@ -95,7 +95,7 @@ importers:
         version: 6.1.1(eslint@8.56.0)
       eslint-plugin-svelte:
         specifier: ^2.35.1
-        version: 2.35.1(eslint@8.56.0)(svelte@4.2.9)
+        version: 2.35.1(eslint@8.56.0)(svelte@4.2.19)
       eslint-plugin-tsdoc:
         specifier: ^0.2.17
         version: 0.2.17
@@ -116,19 +116,19 @@ importers:
         version: 3.2.4
       prettier-plugin-svelte:
         specifier: ^3.1.2
-        version: 3.1.2(prettier@3.2.4)(svelte@4.2.9)
+        version: 3.1.2(prettier@3.2.4)(svelte@4.2.19)
       prettier-plugin-tailwindcss:
         specifier: ^0.5.11
-        version: 0.5.11(@ianvs/prettier-plugin-sort-imports@4.1.1(@vue/compiler-sfc@3.3.4)(prettier@3.2.4))(prettier-plugin-svelte@3.1.2(prettier@3.2.4)(svelte@4.2.9))(prettier@3.2.4)
+        version: 0.5.11(@ianvs/prettier-plugin-sort-imports@4.1.1(@vue/compiler-sfc@3.3.4)(prettier@3.2.4))(prettier-plugin-svelte@3.1.2(prettier@3.2.4)(svelte@4.2.19))(prettier@3.2.4)
       svelte-check:
         specifier: ^3.6.3
-        version: 3.6.3(@babel/core@7.23.9)(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.33))(postcss@8.4.33)(sass@1.70.0)(svelte@4.2.9)
+        version: 3.6.3(@babel/core@7.23.9)(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.33))(postcss@8.4.33)(sass@1.70.0)(svelte@4.2.19)
       svelte-eslint-parser:
         specifier: ^0.33.1
-        version: 0.33.1(svelte@4.2.9)
+        version: 0.33.1(svelte@4.2.19)
       svelte-preprocess:
         specifier: ^5.1.3
-        version: 5.1.3(@babel/core@7.23.9)(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.33))(postcss@8.4.33)(sass@1.70.0)(svelte@4.2.9)(typescript@5.3.3)
+        version: 5.1.3(@babel/core@7.23.9)(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.33))(postcss@8.4.33)(sass@1.70.0)(svelte@4.2.19)(typescript@5.3.3)
       tailwindcss:
         specifier: ^3.4.1
         version: 3.4.1
@@ -2625,6 +2625,7 @@ packages:
   eslint@8.56.0:
     resolution: {integrity: sha512-Go19xM6T9puCOWntie1/P997aXxFsOi37JIHRWI514Hc6ZnaHGKY9xFhrU65RT6CcBEzZoGG1e6Nq+DT04ZtZQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -4644,8 +4645,8 @@ packages:
     resolution: {integrity: sha512-7n2u7A5cu8xCY6MBiXh/Mg6Lh3+Mw2qXlTDBYhzvCvmSM4L4gc4MVo540UtGcjqBiA48E1VDW+EUpBr7iuBlPg==}
     engines: {node: '>=16'}
 
-  svelte@4.2.9:
-    resolution: {integrity: sha512-hsoB/WZGEPFXeRRLPhPrbRz67PhP6sqYgvwcAs+gWdSQSvNDw+/lTeUJSWe5h2xC97Fz/8QxAOqItwBzNJPU8w==}
+  svelte@4.2.19:
+    resolution: {integrity: sha512-IY1rnGr6izd10B0A8LqsBfmlT5OILVuZ7XsI0vdGPEvuonFV7NYEUK4dAkm9Zg2q0Um92kYjTpS1CAP3Nh/KWw==}
     engines: {node: '>=16'}
 
   svg-parser@2.0.4:
@@ -7627,7 +7628,7 @@ snapshots:
     dependencies:
       eslint: 8.56.0
 
-  eslint-plugin-svelte@2.35.1(eslint@8.56.0)(svelte@4.2.9):
+  eslint-plugin-svelte@2.35.1(eslint@8.56.0)(svelte@4.2.19):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.56.0)
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -7641,9 +7642,9 @@ snapshots:
       postcss-safe-parser: 6.0.0(postcss@8.4.33)
       postcss-selector-parser: 6.0.15
       semver: 7.5.4
-      svelte-eslint-parser: 0.33.1(svelte@4.2.9)
+      svelte-eslint-parser: 0.33.1(svelte@4.2.19)
     optionalDependencies:
-      svelte: 4.2.9
+      svelte: 4.2.19
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -9226,17 +9227,17 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-svelte@3.1.2(prettier@3.2.4)(svelte@4.2.9):
+  prettier-plugin-svelte@3.1.2(prettier@3.2.4)(svelte@4.2.19):
     dependencies:
       prettier: 3.2.4
-      svelte: 4.2.9
+      svelte: 4.2.19
 
-  prettier-plugin-tailwindcss@0.5.11(@ianvs/prettier-plugin-sort-imports@4.1.1(@vue/compiler-sfc@3.3.4)(prettier@3.2.4))(prettier-plugin-svelte@3.1.2(prettier@3.2.4)(svelte@4.2.9))(prettier@3.2.4):
+  prettier-plugin-tailwindcss@0.5.11(@ianvs/prettier-plugin-sort-imports@4.1.1(@vue/compiler-sfc@3.3.4)(prettier@3.2.4))(prettier-plugin-svelte@3.1.2(prettier@3.2.4)(svelte@4.2.19))(prettier@3.2.4):
     dependencies:
       prettier: 3.2.4
     optionalDependencies:
       '@ianvs/prettier-plugin-sort-imports': 4.1.1(@vue/compiler-sfc@3.3.4)(prettier@3.2.4)
-      prettier-plugin-svelte: 3.1.2(prettier@3.2.4)(svelte@4.2.9)
+      prettier-plugin-svelte: 3.1.2(prettier@3.2.4)(svelte@4.2.19)
 
   prettier@3.2.4: {}
 
@@ -9615,7 +9616,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@3.6.3(@babel/core@7.23.9)(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.33))(postcss@8.4.33)(sass@1.70.0)(svelte@4.2.9):
+  svelte-check@3.6.3(@babel/core@7.23.9)(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.33))(postcss@8.4.33)(sass@1.70.0)(svelte@4.2.19):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.22
       chokidar: 3.5.3
@@ -9623,8 +9624,8 @@ snapshots:
       import-fresh: 3.3.0
       picocolors: 1.0.0
       sade: 1.8.1
-      svelte: 4.2.9
-      svelte-preprocess: 5.1.3(@babel/core@7.23.9)(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.33))(postcss@8.4.33)(sass@1.70.0)(svelte@4.2.9)(typescript@5.3.3)
+      svelte: 4.2.19
+      svelte-preprocess: 5.1.3(@babel/core@7.23.9)(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.33))(postcss@8.4.33)(sass@1.70.0)(svelte@4.2.19)(typescript@5.3.3)
       typescript: 5.3.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -9637,7 +9638,7 @@ snapshots:
       - stylus
       - sugarss
 
-  svelte-eslint-parser@0.33.1(svelte@4.2.9):
+  svelte-eslint-parser@0.33.1(svelte@4.2.19):
     dependencies:
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
@@ -9645,16 +9646,16 @@ snapshots:
       postcss: 8.4.33
       postcss-scss: 4.0.9(postcss@8.4.33)
     optionalDependencies:
-      svelte: 4.2.9
+      svelte: 4.2.19
 
-  svelte-preprocess@5.1.3(@babel/core@7.23.9)(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.33))(postcss@8.4.33)(sass@1.70.0)(svelte@4.2.9)(typescript@5.3.3):
+  svelte-preprocess@5.1.3(@babel/core@7.23.9)(less@4.2.0)(postcss-load-config@4.0.2(postcss@8.4.33))(postcss@8.4.33)(sass@1.70.0)(svelte@4.2.19)(typescript@5.3.3):
     dependencies:
       '@types/pug': 2.0.10
       detect-indent: 6.1.0
       magic-string: 0.30.5
       sorcery: 0.11.0
       strip-indent: 3.0.0
-      svelte: 4.2.9
+      svelte: 4.2.19
     optionalDependencies:
       '@babel/core': 7.23.9
       less: 4.2.0
@@ -9679,7 +9680,7 @@ snapshots:
       magic-string: 0.30.5
       periscopic: 3.1.0
 
-  svelte@4.2.9:
+  svelte@4.2.19:
     dependencies:
       '@ampproject/remapping': 2.2.1
       '@jridgewell/sourcemap-codec': 1.4.15
