@@ -35,7 +35,7 @@
     "mark.js": "^8.11.1",
     "ml-distance": "^4.0.1",
     "pdfjs-dist": "^4.9.124",
-    "svelte": "^4.2.19"
+    "svelte": "^5.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
