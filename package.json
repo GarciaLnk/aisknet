@@ -30,7 +30,7 @@
     "@visheratin/tokenizers": "^0.1.5",
     "@visheratin/web-ai": "^1.4.5",
     "html-to-text": "^9.0.5",
-    "langchain": "^0.1.7",
+    "langchain": "^0.2.19",
     "localforage": "^1.10.0",
     "mark.js": "^8.11.1",
     "ml-distance": "^4.0.1",
